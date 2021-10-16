@@ -1,5 +1,7 @@
 body{
     font-size: 25px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuHpmW98wIMDUOYh7T-PMk_7I0I7KqMg5Hcw&usqp=CAU');
+
 }
 .photo {
     margin-bottom: 2rem;
@@ -23,7 +25,7 @@ a {
     font-weight: 900;
 }
 h2,h1 {
-    color: #449D44;
+    color: #9a449d;
   }
   .img-thumbnail {
     cursor: pointer;
@@ -34,20 +36,20 @@ h2,h1 {
   }
   .img-thumbnail:hover {
     opacity: 0.9;
-    background-color: #295168;
+    background-color: #682950;
   }
   .link:hover {
-    color: blue;
+    color: rgb(255, 0, 119);
     font-weight: 900;
   }
   .footer {
-    color: #449D44 !important;
+    color: #9d4482 !important;
   }
   .footer a {
-    color: #449D44 !important;
+    color: #9d4487 !important;
   }
   img {
-    width: 100%;
+    width: 50%;
   }
   .pull-right, .subscribe {
     color: white !important;
@@ -63,7 +65,7 @@ h2,h1 {
   }
   .name {
     padding-top: 8%;
-    color: #058F03;
+    color: #8f0344;
     text-align: center;
   }
   .slide {
