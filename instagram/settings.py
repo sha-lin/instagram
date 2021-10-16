@@ -14,6 +14,7 @@ import cloudinary
 import cloudinary.uploader
 import cloudinary.api
 from pathlib import Path
+from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -131,6 +132,9 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 # adding config
 cloudinary.config( 
@@ -138,6 +142,20 @@ cloudinary.config(
   api_key = "163743296544585", 
   api_secret = "eVRfXr_wf-SOEbUOZ5XhdclyR2s" 
 )
+
+# Email configurations remember to install python-decouple
+# EMAIL_USE_TLS = config('EMAIL_USE_TLS')
+# EMAIL_HOST = config('EMAIL_HOST')
+# EMAIL_PORT = config('EMAIL_PORT')
+# EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+# EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'shalin.rono@student.moringaschool.com'
+EMAIL_HOST_PASSWORD = 'Chepkoech1234'
+
 
 
 # Default primary key field type
