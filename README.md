@@ -1,8 +1,8 @@
 ## Instagram Clone Web Application
-This is a Gallery project which shows several pictures in my collection.Once you click any picture, you will be able to find all its description there. You can also decide to search for the location where a particular image was taken, that is, by using the search form then clicking the search button.
+This is an Instagram Clone Web Application. Just like the app Instagram,the user can signup for an account and follow others and also be followed back. The user can also post and comment. 
 
 ## screenshot-images
-<img src="static/images/screenshot.png">
+<img src="./static/images/screenshot.png">
 
 ## Author 
 * Shalin Rono
@@ -11,7 +11,7 @@ This is a Gallery project which shows several pictures in my collection.Once you
 
 - Python3.8 
 
-- Django3.2.7
+- Django3.2.8
 
 - Bootstrap3
 
@@ -26,14 +26,14 @@ This is a Gallery project which shows several pictures in my collection.Once you
 
 1. Clone the repository
    
-   git clone https://github.com/sha-lin/gallery
+   git clone https://github.com/sha-lin/instagram
 
 2. Install the latest django version and other requirements in my requirements.txt file
 
 
 ## Usage
 
-On the landing page, you will find some images from my galler collection. Click on any image to find its description. Otherwise you can decide to search using the search form present then click the search button.
+The user will signup for an account then login. After loging in the user can post,like ,comment,follow others and be followed back.
 
 
 ## Contributing
@@ -50,4 +50,4 @@ If you have a suggestion that would make this better, please fork the repo and c
 ## Contact Information
 E_MAIL -ronoshalin@gmail.com
 
-Project Link: [https://github.com/sha-lin/gallery](https://github.com/sha-lin/gallery)
+Project Link: [https://github.com/sha-lin/instagram](https://github.com/sha-lin/instagram)
