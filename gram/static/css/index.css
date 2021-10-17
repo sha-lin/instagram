@@ -1,31 +1,35 @@
 body{
     font-size: 25px;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuHpmW98wIMDUOYh7T-PMk_7I0I7KqMg5Hcw&usqp=CAU');
-
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeAPZrfCaQXgzSlczhi_qzsfP-w6szAGSTew&usqp=CAU');
+    background-size: auto;
+    background-position: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(7, 6, 7);
 }
-.photo {
+/* .photo {
     margin-bottom: 2rem;
-}
+} */
 .profile_photo {
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
 .username {
-    color: #8f036c;
+    color: #8f0339;
 }
 nav {
-    color: #4888BE !important;
+    color: #4a48be !important;
     height: 8vh !important;
     font-size: 25;
     padding-top: 1vh;
   }
-a {
+/* a {
     color: wheat;
     font-weight: 900;
-}
+} */
 h2,h1 {
-    color: #9a449d;
+    color: #46449d;
   }
   .img-thumbnail {
     cursor: pointer;
@@ -34,7 +38,7 @@ h2,h1 {
   .gal-item {
     float: left !important;
   }
-  .img-thumbnail:hover {
+  /* .img-thumbnail:hover {
     opacity: 0.9;
     background-color: #682950;
   }
@@ -44,7 +48,7 @@ h2,h1 {
   }
   .footer {
     color: #9d4482 !important;
-  }
+  } */
   .footer a {
     color: #9d4487 !important;
   }
@@ -57,12 +61,7 @@ h2,h1 {
   .menu {
     color: white !important;
   }
-  .banner {
-    height: 60vh;
-    background-image: url('https://res.cloudinary.com/dbos9xidr/image/upload/v1625440961/windows2_avbnls.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  
   .name {
     padding-top: 8%;
     color: #8f0344;
@@ -72,10 +71,4 @@ h2,h1 {
     width: auto;
   }
   
-  @media (max-width: 1000px) {
-    nav {
-      height: auto !important;
-      padding-top: 1vh;
-    }
-    
-  }
+  

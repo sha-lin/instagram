@@ -14,7 +14,7 @@
             <p><a href="{% url 'users_profile' photo.user.id %}"><img class="profile_photo"
                   src="{{ photo.user.profile.profile_photo.url }}" alt="{{ photo.profile.name }}"></a></p>
                   {% else %}
-                  <i style="font-size:100px;color:#4888BE" class="fa fa-user" aria-hidden="true"></i>
+                  <i style="font-size:100px;color:#be48b4" class="fa fa-user" aria-hidden="true"></i>
                   {% endif %}
           </div>
           <div class="col-md-2">
@@ -52,7 +52,7 @@
     </div>
     <div class="col-md-2">
       <div class="">
-        <h2>People</h2>
+        <h2>People you may know</h2>
       </div>
       <div class="">
         {% if all_users %}
@@ -63,7 +63,7 @@
             <p><a href="{% url 'users_profile' person.id  %}"><img src="{{person.profile.profile_photo.url}}"
                   class="rounded-circle border" alt="profile" style="height: 8vh; width:8vh; border-radius:50%"></a></p>
                   {% else %}
-                  <i style="font-size:100px;color:#4888BE" class="fa fa-user" aria-hidden="true"></i>
+                  <i style="font-size:100px;color:#630539" class="fa fa-user" aria-hidden="true"></i>
                   {% endif %}
           </div>
           <div class="col-md-4">
