@@ -52,6 +52,6 @@ E_MAIL -ronoshalin@gmail.com
 
 Project Link: [https://github.com/sha-lin/instagram](https://github.com/sha-lin/instagram)
 ## License
-https://github.com/sha-lin/gallery/blob/master/LICENSE
+https://github.com/sha-lin/instagram/blob/master/LICENSE
 # **Copyright**
 Copyright (c) {2021} **SHALIN RONO**
