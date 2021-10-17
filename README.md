@@ -2,7 +2,7 @@
 This is an Instagram Clone Web Application. Just like the app Instagram,the user can signup for an account and follow others and also be followed back. The user can also post and comment. 
 
 ## screenshot-images
-<img src="./static/images/screenshot.png">
+<img src="./gram/static/images/screenshot.png">
 
 ## Author 
 * Shalin Rono
@@ -51,3 +51,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 E_MAIL -ronoshalin@gmail.com
 
 Project Link: [https://github.com/sha-lin/instagram](https://github.com/sha-lin/instagram)
+## License
+https://github.com/sha-lin/gallery/blob/master/LICENSE
+# **Copyright**
+Copyright (c) {2021} **SHALIN RONO**
